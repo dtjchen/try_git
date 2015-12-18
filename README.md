@@ -159,10 +159,10 @@ Some successful tests (corresponding to `.wav` files from speakers 0 and 7 in ou
 
 |# | Speaker  | Wavfile |
 |:--:| :-------------: | :------------- |
-|0|0|~/dev/zebra/full_dataset/test_raw/2_07x06.Treehouse__Of__Horror__VI.x264.ac3/217.wav|
-|1|0|~/dev/zebra/full_dataset/test_raw/2_07x20.Bart__On__The__Road.x264.ac3/39.wav|
-|**2**|**7**|~/dev/zebra/full_dataset/test_raw/2_07x13.Two__Bad__Neighbors.x264.ac3/228.wav|
-|**3**|**7**|~/dev/zebra/full_dataset/test_raw/2_07x15.Bart__The__Fink.x264.ac3/340.wav|
+|0|0|`~/dev/zebra/full_dataset/test_raw/2_07x06.Treehouse__Of__Horror__VI.x264.ac3/217.wav`|
+|1|0|`~/dev/zebra/full_dataset/test_raw/2_07x20.Bart__On__The__Road.x264.ac3/39.wav`|
+|**2**|**7**|`~/dev/zebra/full_dataset/test_raw/2_07x13.Two__Bad__Neighbors.x264.ac3/228.wav`|
+|**3**|**7**|`~/dev/zebra/full_dataset/test_raw/2_07x15.Bart__The__Fink.x264.ac3/340.wav`|
 
 Despite the difficulty of the dataset, the accuracy could be further improved. A stronger focus on feature extraction would likely improve the results of training and testing with the data. Perhaps identifying different patterns or incorporating other features may allow for better distinction and differentiation of voices. In addition, using more robust models may also improve the way the data is processed and the voices are learned. Using more sophisticated techniques such as k-means clustering, neural networks, or deep learning approaches would improve the accuracy of the results. Our next step will experiment with recurrent neural networks. Further training and testing can also be done with other datasets.
 
